@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+}
+
+a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+img {
+    border: 4px solid black;
+}
+
+.Image1 {
+    width: 100%;
+    height: 100%;
+    grid-column: span 2;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.Image2 {
+    width: 100%;
+    height: 100%;
+    grid-row: span 2;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.Image3 {
+    width: 100%;
+    height: 100%;
+    grid-column: span 2;
+    grid-row: span 2;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.Image4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.Image5 {
+    width: 100%;
+    height: 100%;
+    grid-column: span 2;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.Image6 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.Image7 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.Image8 {
+    width: 100%;
+    height: 100%;
+    grid-column: span 2;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.Photos {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-rows: 150px 250px 180px;
+    max-width: fit-content;
+    width: 100%;
+    gap: 20px;
+    margin: 0 auto;
+}
